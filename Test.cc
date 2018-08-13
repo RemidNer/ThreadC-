@@ -2,6 +2,7 @@
 #include <vector>
 #include <stdlib.h>
 #include <unistd.h>
+#include <time.h>
 
 extern "C"{
 #include "Mutex.h"

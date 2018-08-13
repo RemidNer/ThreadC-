@@ -15,6 +15,8 @@ class Mutex
         int UnLock();
 
         int Destroy();
+
+	~Mutex();
     private:
         pthread_mutex_t *m_Mutex;
 };

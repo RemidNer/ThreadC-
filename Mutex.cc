@@ -9,6 +9,11 @@ Mutex::Mutex()
     pthread_mutex_init(m_Mutex,NULL);
 }
 
+Mutex::~Mutex()
+{
+	
+}
+
 int Mutex::Lock()
 {
     return pthread_mutex_lock(m_Mutex);
